@@ -1,0 +1,8 @@
+Total blocks used (including Hashtable and Heapfile info blocks): 11
+Block count (total blocks - info blocks): 5
+Minimum records bucket: 0
+Records per bucket (average): 4.4
+Maximum records bucket: 22
+Blocks per bucket (average): 1
+Number of buckets with overflow blocks: 1
+Bucket 0, number of overflow blocks: 4

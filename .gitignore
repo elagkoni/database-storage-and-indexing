@@ -1,0 +1,53 @@
+# ==========================================
+# Executables & Binaries
+# ==========================================
+ysbd
+ysbd.exe
+*.out
+*.app
+
+# ==========================================
+# Object & Library Files
+# ==========================================
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+
+# Keep static libraries in lib/ if tracked, but ignore generated ones
+# (If lib/BF_64.a is a tracked dependency, keep the line below commented or use un-ignore)
+!lib/BF_64.a
+
+# ==========================================
+# Test Output & Database Files
+# ==========================================
+heapfile_test
+hashtable_test
+secondary_test
+invalid_file
+*.db
+*.dat
+*.log
+
+# ==========================================
+# Editors & IDEs
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# CLion / JetBrains
+.idea/
+
+# Vim / Emacs / Editors
+*.swp
+*.swo
+*~
+.clangd/
+
+# OS Specific
+.DS_Store
+Thumbs.db
